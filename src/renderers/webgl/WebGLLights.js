@@ -360,6 +360,7 @@ function WebGLLights( extensions, capabilities ) {
 				uniforms.color.copy( light.color ).multiplyScalar( light.intensity );
 				uniforms.distance = light.distance;
 				uniforms.decay = light.decay;
+				uniforms.animated = light.animated;
 
 				if ( light.castShadow ) {
 

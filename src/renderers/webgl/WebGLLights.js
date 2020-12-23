@@ -330,6 +330,8 @@ function WebGLLights( extensions, capabilities ) {
 				uniforms.color.copy( light.color ).multiplyScalar( light.intensity );
 				uniforms.distance = light.distance;
 				uniforms.decay = light.decay;
+				//Required for KotOR.js animated lighting to affect lightmapped materials
+				uniforms.animated = light.animated;
 
 				if ( light.castShadow ) {
 

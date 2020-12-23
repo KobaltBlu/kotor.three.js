@@ -9,7 +9,7 @@ KotOR.three.js
 
 #### KotOR.three.js ####
 
-This fork was created for use with [https://github.com/KobaltBlu/KotOR.js](https://github.com/KobaltBlu/KotOR.js). It will include slight modifications to the base three.js code base, so that it can support some of the things needed for KotOR.js.
+This fork was created for use with [https://github.com/KobaltBlu/KotOR.js](https://github.com/KobaltBlu/KotOR.js). It will include slight modifications to the three.js code base, so that it can support some of the things needed for KotOR.js.
 
 #### JavaScript 3D library ####
 

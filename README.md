@@ -1,4 +1,4 @@
-three.js
+kotor.three.js
 ========
 
 [![NPM Package][npm]][npm-url]
